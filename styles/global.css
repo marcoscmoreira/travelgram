@@ -44,3 +44,12 @@ a:hover {
 .bg-surface-color {
     background-color: var(--surface-color);
 }
+
+@media (width <= 361px) {
+
+    .container {
+        padding-inline: 16px;
+        margin-inline: auto;
+    }
+
+}

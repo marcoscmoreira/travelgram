@@ -10,3 +10,18 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width <= 361px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-block: 16px;
+        gap: 16px;
+    }
+
+    main img {
+        width: 328px;
+        height: 328px;
+        object-fit: cover;
+    }
+}

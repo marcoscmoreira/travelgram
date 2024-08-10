@@ -47,3 +47,22 @@ header #profile {
     align-items: center;
     gap: 8px;
 }
+
+@media (width <= 361px) {
+    header {
+        padding-block: 16px;
+    }
+
+    header .container{
+        flex-direction: column;
+        gap: 32px;
+        align-items: start;
+    }
+
+    header #profile {
+        flex-direction: column;
+    }
+
+   
+
+}
